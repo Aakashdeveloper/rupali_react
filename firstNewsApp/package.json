@@ -8,7 +8,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "set port=7800 && react-scripts start",
+    "start": "set port=7810 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
