@@ -12,7 +12,12 @@ const ArtistsList = (props) => {
                 background:`url('/images/covers/${item.cover}.jpg') no-repeat`
             }
 
-           
+           return(
+               <Link key={item.id} to={`/artist/${item.id}`} 
+                className="artist_item"
+                style={style}>
+                </Link>
+           )
             
         })
     }
